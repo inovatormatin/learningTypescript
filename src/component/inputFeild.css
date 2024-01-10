@@ -1,0 +1,83 @@
+.todo__container {
+    background-color: #292929;
+    width: 500px;
+    border-radius: 10px;
+    padding: 1rem 1.2rem;
+}
+
+.todo__container h2 {
+    color: white;
+    font-weight: 500;
+}
+
+.todo__container input {
+    color: #959595;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: solid 1px #959595;
+}
+
+.to__add,
+.to__delete {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    transition: all ease-in-out 300ms;
+}
+
+.to__add {
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    background-color: #00e622;
+}
+
+.to__delete {
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    background-color: red;
+    position: absolute;
+    right: 8px;
+}
+
+.to__add:hover {
+    background-color: #00ab1a;
+}
+
+.to__delete:hover {
+    background-color: #d80000;
+}
+
+.user__input {
+    margin: 10px auto;
+    display: flex;
+}
+
+.user__input input {
+    width: 100%;
+}
+
+.task {
+    position: relative;
+    color: white;
+    background-color: #686868;
+    display: flex;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.radioInput {
+    margin-right: 8px;
+}
